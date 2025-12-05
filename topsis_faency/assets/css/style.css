@@ -1,0 +1,87 @@
+/* Background gradasi + center */
+body {
+  background: linear-gradient(135deg, #667eea, #00c6ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+}
+
+.custom-alert {
+  background: rgba(255, 0, 0, 0.7);
+  color: #fff;
+  border-radius: 8px;
+  padding: 12px 20px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.login-box {
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.15);
+}
+
+/* Judul */
+.login-box h4 {
+  font-weight: bold;
+  color: #333333;
+}
+
+/* Input */
+.login-box .form-control {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  padding: 12px;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.login-box .form-control:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+  outline: none;
+}
+
+/* Tombol */
+.login-box .btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  background: #6c63ff;
+  border: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.login-box .btn:hover {
+  background: #5848e5;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(108, 99, 255, 0.3);
+}
+
+/* Alert gagal login */
+.alert {
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* Animasi masuk */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+
+

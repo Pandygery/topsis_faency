@@ -1,0 +1,51 @@
+/* Background body sama seperti login */
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+/* Navbar style */
+.navbar {
+  background: rgba(0, 0, 0, 0.85) !important;
+  padding: 12px 25px;
+}
+
+/* Link dasar */
+.navbar-nav .nav-link {
+  color: #ddd !important;
+  padding: 8px 16px !important;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.navbar-nav .nav-link:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff !important;
+}
+
+/* Aktif */
+.navbar-nav .nav-link.active {
+  background: #0d6efd;
+  color: #fff !important;
+  font-weight: bold;
+}
+
+/* Tombol logout */
+.navbar .nav-link.text-danger {
+  background: rgba(255, 0, 0, 0.15);
+}
+
+.navbar .nav-link.text-danger:hover {
+  background: rgba(255, 0, 0, 0.25);
+  color: #ff4d4d !important;
+}
+
+.hero-title {
+  color: #fff;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+}
